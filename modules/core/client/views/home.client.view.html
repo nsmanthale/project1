@@ -1,0 +1,204 @@
+<section ng-controller="HomeController">
+  <div class="jumbotron text-center">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-12">
+        <img alt="MEAN.JS" class="img-responsive text-center" src="modules/core/client/img/brand/logo.png" />
+      </div>
+    </div>
+    <br>
+    <div class="row">
+      <p class="lead">
+        Open-Source Full-Stack Solution For MEAN Applications
+      </p>
+    </div>
+    <div class="row">
+      <p>
+        <a class="btn btn-primary btn-lg" href="http://meanjs.org" target="_blank">Learn more</a>
+      </p>
+    </div>
+  </div>
+  <div>
+    <h2>Congrats! You've configured and run the sample application.</h2>
+    <p>MEAN.JS is a web application boilerplate, which means you should start changing everything :-)</p>
+    <p>This sample application tracks users and articles.</p>
+    <ul>
+      <li>
+        Click
+        <em>Sign Up</em> to get started.
+      </li>
+      <li>
+        Configure your app to work with your social accounts, by editing the
+        <em>/config/env/*.js</em> files.
+      </li>
+      <li>
+        Edit your users module.
+      </li>
+      <li>
+        Add new CRUD modules.
+      </li>
+      <li>
+        Have fun...
+      </li>
+    </ul>
+  </div>
+  <div class="row">
+    <div class="col-md-3">
+      <h2><strong>M</strong>ongoDB</h2>
+      <p><a target="_blank" href="http://mongodb.org/">MongoDB</a> is a NoSQL database. MongoDB's <a target="_blank" href="http://docs.mongodb.org/manual/">great manual</a> is the place to get started with NoSQL and MongoDB.</p>
+    </div>
+    <div class="col-md-3">
+      <h2><strong>E</strong>xpress</h2>
+      <p><a target="_blank" href="http://expressjs.com/"> Express</a> is a NodeJS server-side application web framework. Check out <a target="_blank" href="http://expressjs.com/4x/api.html">The ExpressJS API reference for more information</a> or <a target="_blank" href="http://stackoverflow.com/questions/8144214/learning-express-for-node-js">StackOverflow</a> for more info.</p>
+    </div>
+    <div class="col-md-3">
+      <h2><strong>A</strong>ngularJS</h2>
+      <p><a target="_blank" href="http://angularjs.org/">AngularJS</a> is client-side web application framework. The <a target="_blank" href="http://www.thinkster.io/">Thinkster Popular Guide</a> and <a target="_blank" href="https://egghead.io/">Egghead Videos</a> are great resources.</p>
+    </div>
+    <div class="col-md-3">
+      <h2><strong>N</strong>ode.js</h2>
+      <p><a target="_blank" href="http://nodejs.org/">Node.js</a> is a JavaScript run-time, popular for being a web server platform. Node's website and this <a target="_blank" href="http://stackoverflow.com/questions/2353818/how-do-i-get-started-with-node-js">stackOverflow thread</a> offer excellent starting points to get to grasps with node.</p>
+    </div>
+  </div>
+  <div class="well">
+    <h2>MEAN.JS Documentation</h2>
+    <p>
+      Once you're familiar with the foundation technology, check out the MEAN.JS Documentation:
+      <ul>
+        <li><a target="_blank" href="http://meanjs.org/docs.html">MEAN.JS Documentation</a>
+        </li>
+        <!-- <li><a target="_blank" href="http://meanjs.org/generator.html">Yeoman Generator</a>
+				</li> -->
+        <li><a target="_blank" href="http://meanjs.org/modules.html">Modules</a>
+        </li>
+        <li><a target="_blank" href="http://meanjs.org/changelog.html">Changelog</a>
+        </li>
+        <li><a target="_blank" href="http://meanjs.org/community.html">Community</a>
+        </li>
+        <li><a target="_blank" href="http://blog.meanjs.org">Blog</a>
+        </li>
+      </ul>
+    </p>
+  </div>
+  <br>Enjoy &amp; Keep Us Updated,
+  <br>The MEAN.JS Team.
+</section>
+  <md-content flex layout-padding>
+  <section layout="row" layout-sm="column" layout-align="center center" layout-wrap="">
+      <md-button class="md-raised">Button</md-button>
+      <md-button class="md-raised md-primary">Primary</md-button>
+      <md-button ng-disabled="true" class="md-raised md-primary">Disabled</md-button>
+      <md-button class="md-raised md-warn">Warn</md-button>
+      
+    </section>
+
+<section layout="row" layout-sm="column" layout-align="center center" layout-wrap="">
+        <div layout-gt-sm="row" class="layout-gt-sm-row">
+                <md-input-container class="md-block flex-gt-sm" flex-gt-sm="">
+                  <label for="input_152">First name</label>
+                  <input ng-model="user.firstName" class="ng-pristine ng-valid md-input ng-touched" id="input_152" aria-invalid="false" style="">
+                <div class="md-errors-spacer"></div></md-input-container>
+
+                <md-input-container class="md-block flex-gt-sm" flex-gt-sm="">
+                  <label for="input_153">Last Name</label>
+                  <input ng-model="theMax" class="ng-pristine ng-valid md-input ng-touched" id="input_153" aria-invalid="false" style="">
+                <div class="md-errors-spacer"></div></md-input-container>
+
+                <md-input-container class="md-block flex-gt-sm md-input-has-value" flex-gt-sm="">
+                  <label for="select_157" class="">State</label>
+                  <md-select ng-model="user.state" class="ng-pristine ng-valid ng-touched" tabindex="0" aria-disabled="false" role="listbox" aria-expanded="false" aria-multiselectable="false" id="select_157" aria-owns="select_container_158" aria-invalid="false" aria-label="State: 
+                      CA
+                    " style=""><md-select-value class="md-select-value" id="select_value_label_147"><span><div class="md-text ng-binding">
+                      CA
+                    </div></span><span class="md-select-icon" aria-hidden="true"></span></md-select-value></md-select>
+                </md-input-container>
+
+
+
+        </div>
+
+        
+  </section>
+
+  <section layout="row" layout-sm="column" layout-align="center center" layout-wrap="">
+      <fieldset class="standard">
+                <div layout="column" layout-wrap="" layout-gt-sm="row" class="layout-wrap layout-gt-sm-row layout-column">
+                  <div flex-xs="" flex="50" class="flex-xs flex-50">
+                    <md-checkbox ng-model="data.cb1" aria-label="Checkbox 1" role="checkbox" class="ng-valid ng-dirty ng-valid-parse md-checked ng-touched" tabindex="0" aria-checked="true" aria-invalid="false" style=""><div ng-transclude="" class="md-label"><span class="ng-binding ng-scope">
+                      Checkbox 1: true
+                    </span></div></md-checkbox>
+                  </div>
+                  <div flex-xs="" flex="50" class="flex-xs flex-50">
+                    <div layout-xs="column" flex-xs="100" class="layout-xs-column flex-xs-100">
+                      <md-checkbox ng-model="data.cb2" aria-label="Checkbox 2" ng-true-value="'yup'" ng-false-value="'nope'" class="md-warn md-align-top-left ng-valid flex md-checked ng-dirty ng-valid-parse ng-touched" flex="" role="checkbox" tabindex="0" aria-checked="true" aria-invalid="false" style=""><div ng-transclude="" class="md-label"><span class="ng-scope">
+                      Checkbox 2 (md-warn)  </span><br class="ng-scope">
+                      <span class="ipsum ng-scope">
+                        Duis placerat lectus et justo mollis, nec sodales orci congue. Vestibulum semper non urna ac suscipit.
+                        Vestibulum tempor, ligula id laoreet hendrerit, massa augue iaculis magna,
+                        sit amet dapibus tortor ligula non nibh.
+                      </span>
+                      <br class="ng-scope"><span class="ng-binding ng-scope">
+                      yup
+                    </span></div></md-checkbox>
+                    </div>
+                  </div>
+                  <div flex-xs="" flex="50" class="flex-xs flex-50">
+                    <md-checkbox ng-disabled="true" aria-label="Disabled checkbox" ng-model="data.cb3" role="checkbox" class="ng-pristine ng-untouched ng-valid" tabindex="-1" aria-disabled="true" disabled="disabled" aria-checked="false" aria-invalid="false"><div ng-transclude="" class="md-label"><span class="ng-scope">
+                      Checkbox: Disabled
+                    </span></div></md-checkbox>
+                  </div>
+                  <div flex-xs="" flex="50" class="flex-xs flex-50">
+                    <md-checkbox ng-disabled="true" aria-label="Disabled checked checkbox" ng-model="data.cb4" ng-init="data.cb4=true" role="checkbox" class="ng-pristine ng-untouched ng-valid md-checked" tabindex="-1" aria-disabled="true" disabled="disabled" aria-checked="true" aria-invalid="false"><div ng-transclude="" class="md-label"><span class="ng-scope">
+                      Checkbox: Disabled, Checked
+                    </span></div></md-checkbox>
+                  </div>
+                  <div flex-xs="" flex="50" class="flex-xs flex-50">
+                    <md-checkbox md-no-ink="" aria-label="Checkbox No Ink" ng-model="data.cb5" class="md-primary ng-valid md-checked ng-dirty ng-valid-parse ng-touched" role="checkbox" tabindex="0" aria-checked="true" aria-invalid="false" style=""><div ng-transclude="" class="md-label"><span class="ng-scope">
+                      Checkbox (md-primary): No Ink
+                    </span></div></md-checkbox>
+                  </div>
+                </div>
+              </fieldset>
+
+</section>
+
+<section>
+  <div>
+  <form ng-submit="submit()" ng-cloak>
+    <p>Selected Value: <span class="radioValue">{{ data.group1 }}</span> </p>
+    <md-radio-group ng-model="data.group1">
+      <md-radio-button value="Apple" class="md-primary">Apple</md-radio-button>
+      <md-radio-button value="Banana"> Banana </md-radio-button>
+      <md-radio-button value="Mango">Mango</md-radio-button>
+    </md-radio-group>
+    <hr />
+      </form>
+</div>
+</section>
+
+
+<section>
+  
+<div ng-cloak>
+  <md-content>
+    <md-tabs md-dynamic-height md-border-bottom>
+      <md-tab label="one">
+        <md-content class="md-padding">
+          <h1 class="md-display-2">Tab One</h1>
+        </md-content>
+      </md-tab>
+      <md-tab label="two">
+        <md-content class="md-padding">
+          <h1 class="md-display-2">Tab Two</h1>
+        </md-content>
+      </md-tab>
+      <md-tab label="three">
+        <md-content class="md-padding">
+          <h1 class="md-display-2">Tab Three</h1>
+        </md-content>
+      </md-tab>
+    </md-tabs>
+  </md-content>
+</div>
+
+</section>
+  </md-content>
